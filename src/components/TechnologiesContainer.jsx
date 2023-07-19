@@ -6,6 +6,7 @@ import {
   DiJava,
   DiMysql,
   DiReact,
+  DiSass,
   DiPython,
   DiGit,
   DiBootstrap,
@@ -24,7 +25,8 @@ const technologies=[
   { id: "java", name: "Java", icon: <DiJava /> },
   { id: "mysql", name: "MySQL", icon: <DiMysql /> },
   { id: "react", name: "React", icon: <DiReact /> },
-  { id: "bootstrap", name: "Bootstrarp", icon: <DiBootstrap />},
+  { id: "sass", name: "Sass", icon: <DiSass /> },
+  { id: "bootstrap", name: "Bootstrap", icon: <DiBootstrap />},
   { id: "python", name: "Python", icon: <DiPython />},
   { id: "git", name: "Git", icon: <DiGit />},
 
@@ -32,18 +34,19 @@ const technologies=[
 const TechnologiesContainer = () => {
   const getText = (name) => {
     const texts = {
-      HTML5: "",
-      CSS3: "",
-      JavaScript: "teste ",
-      Nodejs: " ",
-      Expressjs: " ",
-      Sequelize: "",
-      Java: " ",
-      MySQL: " ",
-      React: " ",
-      Bootstrap: " ",
-      Python: " ",
-      Git: " "
+      HTML5: "Intermedíario",
+      CSS3: "Básico/Intermedíario",
+      JavaScript: "Intermedíario",
+      Nodejs: "Básico/Intermedíario(Em estudo) ",
+      Expressjs: "Básico/Intermedíario(Em estudo) ",
+      Sequelize: "Básico/Intermedíario(Em estudo)",
+      Java: "Básico/Intermedíario",
+      MySQL: "Intermedíario/Avançado",
+      React: "Básico",
+      Sass: "Básico",
+      Bootstrap: "Básico/Intermedíario",
+      Python: "Básico",
+      Git: "Intermedíario"
     };
 
     return texts[name]; 
