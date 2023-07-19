@@ -11,7 +11,7 @@ import {
   DiGit,
   DiBootstrap,
 } from 'react-icons/di'
-import{SiSequelize, SiExpress} from 'react-icons/si'
+import{SiSequelize, SiExpress, SiSpring} from 'react-icons/si'
 
 import '../styles/components/technologiescontainer.sass'
 
@@ -23,6 +23,7 @@ const technologies=[
   { id: "express", name: "Expressjs", icon: <SiExpress /> },
   { id: "sequelize", name: "Sequelize", icon: <SiSequelize />},
   { id: "java", name: "Java", icon: <DiJava /> },
+  { id: "spring", name: "Spring", icon: <SiSpring /> },
   { id: "mysql", name: "MySQL", icon: <DiMysql /> },
   { id: "react", name: "React", icon: <DiReact /> },
   { id: "sass", name: "Sass", icon: <DiSass /> },
@@ -41,6 +42,7 @@ const TechnologiesContainer = () => {
       Expressjs: "Básico/Intermedíario(Em estudo) ",
       Sequelize: "Básico/Intermedíario(Em estudo)",
       Java: "Básico/Intermedíario",
+      Spring: "Básico/Intermedíario",
       MySQL: "Intermedíario/Avançado",
       React: "Básico",
       Sass: "Básico",
