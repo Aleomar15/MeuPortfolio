@@ -11,7 +11,7 @@ import {
   DiGit,
   DiBootstrap,
 } from 'react-icons/di'
-import{SiSequelize, SiExpress, SiSpring} from 'react-icons/si'
+import{SiSequelize, SiExpress, SiSpring, SiVuedotjs} from 'react-icons/si'
 
 import '../styles/components/technologiescontainer.sass'
 
@@ -25,6 +25,7 @@ const technologies=[
   { id: "java", name: "Java", icon: <DiJava /> },
   { id: "spring", name: "Spring", icon: <SiSpring /> },
   { id: "mysql", name: "MySQL", icon: <DiMysql /> },
+  { id: "vue", name: "Vue", icon: <SiVuedotjs /> },
   { id: "react", name: "React", icon: <DiReact /> },
   { id: "sass", name: "Sass", icon: <DiSass /> },
   { id: "bootstrap", name: "Bootstrap", icon: <DiBootstrap />},
@@ -38,12 +39,13 @@ const TechnologiesContainer = () => {
       HTML5: "Intermedíario",
       CSS3: "Básico/Intermedíario",
       JavaScript: "Intermedíario",
-      Nodejs: "Básico/Intermedíario(Em estudo) ",
-      Expressjs: "Básico/Intermedíario(Em estudo) ",
-      Sequelize: "Básico/Intermedíario(Em estudo)",
+      Nodejs: "Básico/Intermedíario (Em estudo) ",
+      Expressjs: "Básico/Intermedíario (Em estudo) ",
+      Sequelize: "Básico/Intermedíario (Em estudo)",
       Java: "Básico/Intermedíario",
       Spring: "Básico/Intermedíario",
       MySQL: "Intermedíario/Avançado",
+      Vue: "Básico/Intermediario (Em estudo)",
       React: "Básico",
       Sass: "Básico",
       Bootstrap: "Básico/Intermedíario",
